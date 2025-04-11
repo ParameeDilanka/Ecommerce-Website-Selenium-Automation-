@@ -34,7 +34,7 @@ The goal is to demonstrate real-world test automation skills and best practices 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git](https://github.com/ParameeDilanka/Ecommerce-Website-Selenium-Automation-.git
+   git clone https://github.com/ParameeDilanka/Ecommerce-Website-Selenium-Automation-.git
    ```
 
 2. **Install dependencies:**
