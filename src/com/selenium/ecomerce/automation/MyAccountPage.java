@@ -19,9 +19,9 @@ public class MyAccountPage {
 
         //TestCase-1 If Already registered?
         //enter Email Adress
-        driver.findElement(By.id("email")).sendKeys("prakashraj20190@gmail.com");
+        driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
         //Enter Password
-        driver.findElement(By.id("passwd")).sendKeys("123456");
+        driver.findElement(By.id("passwd")).sendKeys("222222");
         //Click submit button
         driver.findElement(By.id("SubmitLogin")).click();
 
