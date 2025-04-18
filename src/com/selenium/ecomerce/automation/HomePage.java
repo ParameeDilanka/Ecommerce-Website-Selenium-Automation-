@@ -23,7 +23,6 @@ public class HomePage {
         driver.findElement(By.id("search_query_top")).sendKeys("dresses");
         driver.findElement(By.name("submit_search")).click();
 
-
         //TestCase-2
         //Newsletter automation
         driver.findElement(By.id("newsletter-input")).sendKeys("abc@gmail.com");

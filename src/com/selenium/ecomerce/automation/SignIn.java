@@ -23,6 +23,6 @@ public class SignIn {
         //Click submit button
         driver.findElement(By.id("SubmitLogin")).click();
 
-    //    driver.quit();
+        driver.quit();
     }
 }

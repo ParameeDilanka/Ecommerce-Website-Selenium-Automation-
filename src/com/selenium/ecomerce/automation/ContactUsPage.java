@@ -17,13 +17,11 @@ public class ContactUsPage {
         //navigate to the url
         driver.get("http://www.automationpractice.pl/index.php?controller=contact");
 
-        //TestCase-3 Customer service - Contact us
-
         //selectsubject heading from drop down menu
         WebElement heading = driver.findElement(By.id("id_contact"));
         // Create Select objects
         Select selectheading = new Select(heading);
-        // Select values
+        //Select values
         selectheading.selectByVisibleText("Webmaster");
 
         //enter Email Adress
@@ -35,6 +33,6 @@ public class ContactUsPage {
         //Click send button
         driver.findElement(By.id("submitMessage")).click();
 
-        //    driver.quit();
+        driver.quit();
     }
 }

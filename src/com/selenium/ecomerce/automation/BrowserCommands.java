@@ -17,19 +17,19 @@ public class BrowserCommands {
 
         //navigate to the url - 2
         //Assign the url to a string variable
-//        String url = "http://www.automationpractice.pl/index.php?controller=authentication&back=my-account";
-//        driver.get(url);
+        //String url = "http://www.automationpractice.pl/index.php?controller=authentication&back=my-account";
+        //driver.get(url);
 
         //url of the page
         String url = driver.getCurrentUrl();
         System.out.println("URL of the page is:" + url);
 
         //verify the url
-        if (url.equals("http://www.automationpractice.pl/index.php?controller=authentication&back=my-account")) {
-            System.out.println("The URL is verified");
-        } else {
-            System.out.println("The URL is not verified");
-        }
+            if (url.equals("http://www.automationpractice.pl/index.php?controller=authentication&back=my-account")) {
+                 System.out.println("The URL is verified");
+            } else {
+                 System.out.println("The URL is not verified");
+            }
             //getTitle()
             String title = driver.getTitle();
             System.out.println("Title of the page is:" + title);

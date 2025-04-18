@@ -52,6 +52,6 @@ public class MyAccountPage {
 
         driver.findElement(By.id("submitAddress")).click();
 
-//            driver.quit();
+        driver.quit();
     }
 }
