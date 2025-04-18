@@ -26,7 +26,7 @@ public class HomePage {
 
         //TestCase-2
         //Newsletter automation
-        driver.findElement(By.id("newsletter-input")).sendKeys("prakashraj20190@gmail.com");
+        driver.findElement(By.id("newsletter-input")).sendKeys("abc@gmail.com");
         driver.findElement(By.name("submitNewsletter")).click();
 
         //TestCase-3

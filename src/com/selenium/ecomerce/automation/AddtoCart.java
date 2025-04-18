@@ -15,11 +15,10 @@ public class AddtoCart {
         System.setProperty("webdriver.chrome.driver", "D:/Selenium JARS and Drivers/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
-    //max the chrome browser
+        //max the chrome browser
         driver.manage().window().maximize();
-
-
-    //navigate to the url
+        
+        //navigate to the url
         driver.get("http://www.automationpractice.pl/index.php?id_product=4&controller=product#/2-size-m/24-color-pink");
         driver.findElement(By.xpath("//span[text()='Add to cart']")).click();
 

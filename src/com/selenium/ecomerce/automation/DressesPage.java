@@ -24,7 +24,4 @@ public class DressesPage {
         Thread.sleep(2000);
         from.sendKeys(Keys.ARROW_UP);
         from.sendKeys(Keys.ENTER);
-
-
-
     }}
